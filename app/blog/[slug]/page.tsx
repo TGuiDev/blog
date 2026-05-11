@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BLOG_POSTS, getPostBySlug } from "@/lib/data/blog-posts";
-import BlogPostContent from "./BlogPostContent";
+import BlogPostContent from "../_components/BlogPostContent";
 
 interface Props {
   params: Promise<{ slug: string }>;

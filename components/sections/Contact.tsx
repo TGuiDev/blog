@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, Loader2, MessageSquare } from "lucide-react";
 import { FORM_CONFIG } from "@/lib/constants";
-import type { FormStatus } from "@/types";
+import type { FormStatus } from "@/lib/types";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -136,9 +136,9 @@ export default function Contact() {
 
           {/* feedback */}
           {/*           {status === "SUCCESS" && (
-            <motion.p 
-              initial={{ opacity: 0, y: 10 }} 
-              animate={{ opacity: 1, y: 0 }} 
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
               className="text-green-400 text-xs text-center font-medium mt-2 bg-green-500/10 p-2 rounded border border-green-500/20"
             >
               Obrigado! Sua mensagem foi enviada com sucesso. Entrarei em contato em breve.

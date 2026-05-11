@@ -4,7 +4,7 @@ import { useRef, useEffect } from "react";
 import { Sword, Heart, Coins, Skull } from "lucide-react";
 import { motion } from "framer-motion";
 import { useRPG } from "@/hooks/useRPG";
-import type { StatusCardProps, ButtonVariant } from "@/types";
+import type { StatusCardProps, ButtonVariant } from "@/lib/types";
 
 export default function Game() {
   // hook connection

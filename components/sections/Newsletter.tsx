@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { FORM_CONFIG } from "@/lib/constants";
-import type { FormStatus } from "@/types";
+import type { FormStatus } from "@/lib/types";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");

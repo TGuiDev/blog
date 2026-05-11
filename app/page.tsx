@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Header from "../components/Header";
-import SocialCards from "../components/SocialCards";
-import Hero from "../components/Hero";
-import TechStack from "../components/TechStack";
-import BlogPosts from "../components/BlogPosts";
-import Footer from "../components/Footer";
+import Header from "@/components/layout/Header";
+import SocialCards from "@/components/sections/SocialCards";
+import Hero from "@/components/sections/Hero";
+import TechStack from "@/components/sections/TechStack";
+import BlogPosts from "@/components/sections/BlogPosts";
+import Footer from "@/components/layout/Footer";
 
 const containerVariants = {
   hidden: { opacity: 0 },

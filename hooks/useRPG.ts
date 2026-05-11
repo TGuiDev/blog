@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import type { Location, Enemy, Weapon, EnemyConfig } from "@/types";
+import type { Location, Enemy, Weapon, EnemyConfig } from "@/lib/types";
 
 // constants
 const WEAPONS: Weapon[] = [

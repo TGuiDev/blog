@@ -1,4 +1,4 @@
-import type { ButtonVariant } from "@/types";
+import type { ButtonVariant } from "@/lib/types";
 
 interface ButtonProps {
   children: React.ReactNode;
